@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chương trình tính chỉ số BMI"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#FFFF99"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+    <!-- Nhập Tên -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập Tên:"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/edtTen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Nhập tên"/>
+    </LinearLayout>
+
+    <!-- Chiều Cao -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiều Cao:"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/edtChieuCao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:inputType="numberDecimal"
+            android:hint="m"/>
+    </LinearLayout>
+
+    <!-- Cân Nặng -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cân Nặng:"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/edtCanNang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:inputType="numberDecimal"
+            android:hint="kg"/>
+    </LinearLayout>
+
+    <!-- Nút Tính BMI -->
+    <Button
+        android:id="@+id/btnTinhBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính BMI"
+        android:layout_marginTop="12dp"/>
+
+    <!-- BMI -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI ="
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/edtBMI"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <!-- Chuẩn đoán -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chuẩn đoán:"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/edtChuanDoan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:enabled="false"/>
+    </LinearLayout>
+
+</LinearLayout>
