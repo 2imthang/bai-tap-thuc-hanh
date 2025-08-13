@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <!-- Ô nhập độ C -->
+    <EditText
+        android:id="@+id/edtdoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Celsius (°C)"
+        android:inputType="number"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Ô nhập độ F -->
+    <EditText
+        android:id="@+id/edtdoF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Fahrenheit (°F)"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Nút chuyển °C → °F -->
+    <Button
+        android:id="@+id/btncf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert °C → °F"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Nút chuyển °F → °C -->
+    <Button
+        android:id="@+id/btnfc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert °F → °C" />
+
+</LinearLayout>

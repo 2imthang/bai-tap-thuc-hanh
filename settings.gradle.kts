@@ -19,6 +19,10 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "equation"
+=======
+rootProject.name = "convertlunaryear2"
+>>>>>>> 9aacdc56b4e9a3b152a7cadaf2e0c412be175031
 include(":app")
  

@@ -4,11 +4,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.equation"
     compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.equation"
+=======
+    namespace = "com.example.convertlunaryear2"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.example.convertlunaryear2"
+>>>>>>> 9aacdc56b4e9a3b152a7cadaf2e0c412be175031
         minSdk = 24
         targetSdk = 35
         versionCode = 1

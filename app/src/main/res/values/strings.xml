@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">equation</string>
+=======
+    <string name="app_name">convertlunaryear2</string>
+>>>>>>> 9aacdc56b4e9a3b152a7cadaf2e0c412be175031
 </resources>
